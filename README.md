@@ -24,7 +24,7 @@
 
 **解答：代码**
 ```cpp
-// #include<iostream>
+ #include<iostream>
 using namespace std;
 int main(){
 int I,sum;
@@ -54,14 +54,18 @@ cout<<sum<<endl;
 system("pause");
 return 0;
 }
+[题目1运行结果](<img width="1406" height="608" alt="image" src="https://github.com/user-attachments/assets/2c87307c-005c-49ed-a3a6-5406addb9627" />
+)
 ### 题目2：电影打分评语
 
 **解答：代码**
 ```cpp
-//#include <iostream>
+#include <iostream>
+#include <windows.h> 
 using namespace std;
 
 int main() {
+  SetConsoleOutputCP(65001);
     int score;
     cout << "请输入电影打分（0~10）：";
     cin >> score;
@@ -93,11 +97,13 @@ int main() {
 
     return 0;
 }
+[题目2运行结果](<img width="1682" height="990" alt="image" src="https://github.com/user-attachments/assets/fdf09ae6-ded5-4ca8-9e36-c0f570ff8b76" />
+)
 ### 题目3：判断回文数
 
 **解答：代码**
 ```cpp
-//#include <iostream>
+#include <iostream>
 #include <string>
 using namespace std;
 
@@ -124,11 +130,13 @@ int main() {
     cout << (shihuiwen ? "yes" : "no") << endl;  
     return 0;
 }
+[题目3运行结果](<img width="1705" height="900" alt="image" src="https://github.com/user-attachments/assets/fca09cb9-b5c5-411e-b758-ae49781ababa" />
+)
 ### 题目4：三位水仙花数
 
 **解答：代码**
 ```cpp
-//#include<iostream>
+#include<iostream>
 using namespace std;
 int main (){
     for (int i=100;i<=999;i++){
@@ -139,12 +147,15 @@ int main (){
             cout<<i<<endl;
         }
     }
-}
+system("pause");
+return 0;
+}[题目4运行结果](<img width="1606" height="752" alt="image" src="https://github.com/user-attachments/assets/4cfecff4-4ba3-4ef2-befa-51df1ec9f63c" />
+)
 ### 题目5：数列 a, aa, aaa... 求和
 
 **解答：代码**
 ```cpp
-//#include <iostream>
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -159,14 +170,16 @@ int main() {
         sum += term;            
     }
 
-    cout << "数列前 " << n << " 项之和为：" << sum << endl;
+    cout  << sum << endl;
     return 0;
 }
+[题目5运行结果](<img width="1811" height="1067" alt="image" src="https://github.com/user-attachments/assets/e1cd7764-fd76-4326-bddf-79b4e9fe91fa" />
+)
 ### 题目6：乘法口诀表
 
 **解答：代码**
 ```cpp
-//#include<iostream>
+#include<iostream>
 using namespace std;
 int main(){
     for (int i=1;i<=9;i++){
@@ -177,11 +190,13 @@ int main(){
         cout<<endl;
     }return 0;
 }
+[题目6运行结果](<img width="1756" height="1062" alt="image" src="https://github.com/user-attachments/assets/bdd4c585-8142-4825-a084-9d27302a5cdf" />
+)
 ### 题目7：兔子数量
 
 **解答：代码**
 ```cpp
-//#include <iostream>
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -195,16 +210,18 @@ int main() {
 
    
     for (int n = 1; n <= 20; n++) {
-        cout << "第" << n << "个月：" << a[n] << " 对" << endl;
+        cout <<  n << "month" << a[n] << " pair" << endl;
     }
 
     return 0;
 }
+[题目7运行结果](<img width="1240" height="687" alt="image" src="https://github.com/user-attachments/assets/ddd87334-d550-4a02-9daf-4275948f8b78" />
+)
 ### 题目8：猴子吃桃
 
 **解答：代码**
 ```cpp
-//#include<iostream>
+#include<iostream>
 using namespace std;
 int main(){
     long long a=1;
@@ -212,6 +229,9 @@ int main(){
         a=(a+1)*2;
     }
     cout<<a<<endl;
-    return 0;
+system("pause")
+;    return 0;
 }
+[题目8运行结果](<img width="1820" height="1018" alt="image" src="https://github.com/user-attachments/assets/3397b98f-113d-4d5c-a1b7-e9263cc65bf7" />
+)
 
