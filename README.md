@@ -248,7 +248,7 @@ int main(){
         a=(a+1)*2;
     }
     cout<<a<<endl;
-system("pause")
+system("pause")；
 ;    return 0;
 }
 
